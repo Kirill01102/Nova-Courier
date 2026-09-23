@@ -109,6 +109,8 @@
   }
   .btn-ghost:hover{ border-color:var(--gold); color:var(--gold-light); }
   .btn svg{ width:16px; height:16px; flex:none; }
+  .btn-icon{ padding:13px; border-radius:50%; }
+  .btn-icon svg{ margin:0; }
 
   /* ---------- NAV ---------- */
   header{
@@ -412,6 +414,9 @@
       <a href="#faq">Вопросы</a>
     </nav>
     <div class="nav-cta">
+      <a class="btn btn-ghost btn-icon" href="https://max.ru/u/f9LHodD0cOKcj8mmOCap_yYbtc3n6h5l0S6tZeT6ArNoj8rKPNnRI1kbe0Y" target="_blank" rel="noopener" aria-label="Написать в MAX" title="Написать в MAX">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.4-.3-3.4-.8L3 21l1.8-4.5a8.5 8.5 0 1 1 16.2-5Z"/></svg>
+      </a>
       <a class="btn btn-ghost" href="mailto:info_novacourier@mail.ru">info_novacourier@mail.ru</a>
       <a class="btn btn-primary" href="https://t.me/IrinaNovaHR" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
@@ -429,6 +434,7 @@
   <a href="#cities">Города</a>
   <a href="#faq">Вопросы</a>
   <a class="btn btn-primary" href="https://t.me/IrinaNovaHR" target="_blank" rel="noopener">Написать в Telegram</a>
+  <a class="btn btn-ghost" href="https://max.ru/u/f9LHodD0cOKcj8mmOCap_yYbtc3n6h5l0S6tZeT6ArNoj8rKPNnRI1kbe0Y" target="_blank" rel="noopener">Написать в MAX</a>
 </div>
 
 <main id="top">
@@ -444,6 +450,10 @@
           <a class="btn btn-primary" href="https://t.me/IrinaNovaHR" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
             Написать в Telegram
+          </a>
+          <a class="hero-channel" href="https://max.ru/u/f9LHodD0cOKcj8mmOCap_yYbtc3n6h5l0S6tZeT6ArNoj8rKPNnRI1kbe0Y" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.4-.3-3.4-.8L3 21l1.8-4.5a8.5 8.5 0 1 1 16.2-5Z"/></svg>
+            Написать в MAX
           </a>
           <a class="hero-channel" href="https://t.me/nova_courier" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
@@ -641,6 +651,10 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
           Написать в Telegram
         </a>
+        <a class="hero-channel" href="https://max.ru/u/f9LHodD0cOKcj8mmOCap_yYbtc3n6h5l0S6tZeT6ArNoj8rKPNnRI1kbe0Y" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.4-.3-3.4-.8L3 21l1.8-4.5a8.5 8.5 0 1 1 16.2-5Z"/></svg>
+          Написать в MAX
+        </a>
         <a class="hero-channel" href="mailto:info_novacourier@mail.ru">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
           info_novacourier@mail.ru
@@ -670,6 +684,7 @@
           <h4>Контакты</h4>
           <a href="https://t.me/IrinaNovaHR" target="_blank" rel="noopener">Telegram: @IrinaNovaHR</a>
           <a href="https://t.me/nova_courier" target="_blank" rel="noopener">Канал: t.me/nova_courier</a>
+          <a href="https://max.ru/u/f9LHodD0cOKcj8mmOCap_yYbtc3n6h5l0S6tZeT6ArNoj8rKPNnRI1kbe0Y" target="_blank" rel="noopener">MAX</a>
           <a href="mailto:info_novacourier@mail.ru">info_novacourier@mail.ru</a>
         </div>
       </div>
@@ -681,16 +696,19 @@
   </div>
 </footer>
 
-<!-- Yandex.Metrika counter — замените XXXXXXX на свой номер счётчика -->
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-   ym(XXXXXXX, "init", { ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true });
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112955312', 'ym');
+
+    ym(112955312, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/XXXXXXX" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/112955312" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 <script>
   // header on scroll
